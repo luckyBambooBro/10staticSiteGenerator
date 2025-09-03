@@ -35,6 +35,5 @@ class TestLeafNode(unittest.TestCase):
         self.assertEqual(node.tag, "h1")
         self.assertEqual(node.value, "lorem ipsum")
 
-
     if __name__ == "__main__":
         unittest.main()
